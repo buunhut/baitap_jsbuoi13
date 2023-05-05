@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bài tập JS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>TÍNH TIỀN LƯƠNG</h1>
+            <form action="">
+                <label for="luongNgay">Tiền lương 1 ngày</label>
+                <input type="text" name="" value="100000" id="luongNgay" disabled>
+                <label for="soNgaylam">Số ngày làm</label>
+                <input type="text" name="" value id="soNgaylam">
+                <button id="tinhTienluong" type="button">Tính tiền lương</button>
+            </form>
+            <div id="tienLuong"></div>
+            <hr>
+        </div>
+        <div class="content">
+            <h1>TÍNH TRUNG BÌNH</h1>        
+                <form action="">
+                    <input type="text" value="" id="soThunhat" placeholder="Nhập số thứ 1">
+                    <input type="text" value="" id="soThuhai" placeholder="Nhập số thứ 2">
+                    <input type="text" value="" id="soThuba" placeholder="Nhập số thứ 3">
+                    <input type="text" value="" id="soThutu" placeholder="Nhập số thứ 4">
+                    <input type="text" value="" id="soThunam" placeholder="Nhập số thứ 5">
+                    <button type="button" id="tinhTrungbinh">Tính trung bình</button>
+                </form>         
+            <div id="trungBinh"></div>
+            <hr>
+        </div>
+        <div class="content">
+            <h1>QUY ĐỔI TIỀN</h1>
+            <form action="">
+                <input type="text" value="" id="usd" placeholder="Nhập số tiền USD">
+                <button id="doiTien" type="button">Đổi tiền</button>
+            </form>
+            <div id="vnd"></div>
+            <hr>
+        </div>
+        <div class="content">
+            <h1>TÍNH CHU VI VÀ DIỆN TÍCH</h1>
+            <form action="">
+                <input type="text" value="" id="chieuDai" placeholder="Nhập chiều dài">
+                <input type="text" value="" id="chieuRong" placeholder="Nhập chiều rộng">
+                <button type="button" id="tinh">Tính</button>
+            </form>
+            <div id="chuVi"></div>
+            <hr>
+        </div>
+        <div class="content">
+            <h1>TÍNH TỔNG 2 KÝ SỐ</h1>
+            <form action="">
+                <input type="text" value="" id="soN" placeholder="Nhập số có 2 chữ số">
+                <button type="button" id="tinhTong">Tính tổng</button>
+            </form>
+            <div id="tongKyso"></div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- link main.js -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
